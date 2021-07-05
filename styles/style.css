@@ -1,7 +1,33 @@
-p {
-    color: cadetblue
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 px high*/
+    font-family: "Lato", sans-serif; /* this should be the rest of the output you got from google fonts*/
+    background-color: blanchedalmond;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: coral;
+}
+h2 {
+    font-size: 24px;
+    text-align: center;
+    color: chocolate;
+    line-height: 0em;
+}
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: cadetblue;
 }
 img {
     width: auto;
-    height: 10em;
+    height: 20em;
+}
+a {
+    color: blue;
+    text-align: justify;
+}
+a:hover {
+    color: aquamarine;
 }
