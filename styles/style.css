@@ -1,6 +1,6 @@
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 px high*/
-    font-family: "Lato", sans-serif; /* this should be the rest of the output you got from google fonts*/
+    font-family: "Varela Round", sans-serif; /* this should be the rest of the output you got from google fonts*/
     background-color: #D99C52;
 }
 body {
@@ -35,7 +35,7 @@ h3, h4 {
 }
 p, li {
     font-size: 16px;
-    line-height: 2em;
+    line-height: 1em;
     letter-spacing: 1px;
     color: rgb(67, 150, 150);
 }
@@ -53,4 +53,7 @@ a {
 }
 a:hover {
     color: cadetblue;
+}
+.social-link {
+    padding: 5px 0;
 }
