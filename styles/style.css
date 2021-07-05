@@ -1,18 +1,29 @@
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 px high*/
     font-family: "Lato", sans-serif; /* this should be the rest of the output you got from google fonts*/
-    background-color: blanchedalmond;
+    background-color: rgb(141, 111, 97);
+}
+body {
+    width: 800px;
+    margin: 20px auto;
+    background-color: beige;
+    padding: 0 20px 20px 20px;
+    border: 5px solid aquamarine;
 }
 h1 {
     font-size: 60px;
     text-align: center;
     color: coral;
+    text-shadow: 3px 3px 3px gray;
+    padding: 0px 0;
+    margin: 10px;
 }
 h2 {
     font-size: 24px;
     text-align: center;
     color: chocolate;
-    line-height: 0em;
+    margin: 0;
+    padding: 0px 0;
 }
 p, li {
     font-size: 16px;
@@ -23,11 +34,15 @@ p, li {
 img {
     width: auto;
     height: 20em;
+    display: block;
+    margin: 0 auto;
+}
+img:hover {
+    opacity: 20%;
 }
 a {
     color: blue;
-    text-align: justify;
 }
 a:hover {
-    color: aquamarine;
+    color: cadetblue;
 }
