@@ -1,21 +1,21 @@
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 px high*/
     font-family: "Varela Round", sans-serif; /* this should be the rest of the output you got from google fonts*/
-    background-color: #D99C52;
+    background-color: #9fe0e9;
 }
 body {
     width: 800px;
     margin: 20px auto;
     background-color: #e9cc95;
     padding: 0 20px 20px 20px;
-    border: 5px solid #30b39b;
+    border: 5px solid springgreen;
     border-radius: 25px;
 }
 h1 {
     font-size: 60px;
     text-align: center;
     color: coral;
-    text-shadow: 3px 3px 3px gray;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
     padding: 0px 0;
     margin: 10px;
 }
@@ -32,6 +32,10 @@ h3, h4 {
     margin: 0 auto;
     color: cornflowerblue;
     padding: 0px 0;
+}
+h4 {
+    margin: 0 0 0 10px;
+    font-size: 14px
 }
 p, li {
     font-size: 16px;
@@ -50,10 +54,9 @@ button {
 }
 a {
     color: blue;
+    position: relative;
+    left: 85%;
 }
 a:hover {
     color: cadetblue;
-}
-.social-link {
-    padding: 5px 0;
 }
